@@ -10,8 +10,36 @@ body {
   padding: 0 20px;
   background-color: #ffefef;
   color: #2d3436;
+
 }
+
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+}
+
+header {
+  text-align: center;
+  font-family: 'Open Sans Light', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.nabidka {
+  align-self: center;
+  background-color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    margin: auto auto;
+    max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galerie {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 200px;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
 }
